@@ -1,0 +1,109 @@
+body{
+  background: radial-gradient(#dfcfbd,#bdcddf)  ;
+  overflow-x: contain;
+  
+}
+   
+   
+   .auction-page {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    
+    }
+
+    .item {
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-bottom: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 0px;
+    }
+
+   .auction-page.button [type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .money img{
+      width: 50px;
+      animation: money 7s linear infinite;
+    }
+.money{
+  width: 100%;
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  position: absolute;
+  top: -70px;
+}
+@keyframes money {
+  0%{
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50%{
+    
+    opacity: 1;
+  }
+  70%{
+   
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(80vh);
+    opacity: 0;
+  }
+}
+
+ .money img:nth-child(1){
+    animation-delay: 2s
+ }
+.money img:nth-child(2){
+      animation-delay: 1s
+}
+.money img:nth-child(3){
+        animation-delay: 3s
+}
+.money img:nth-child(4){
+          animation-delay: 5s
+}
+.money img:nth-child(5){
+  animation-delay: 2s
+}
+.money img:nth-child(6){
+  animation-delay: 4s
+}
+.money img:nth-child(7){
+  animation-delay: 2s
+}
+.money img:nth-child(9){
+  animation-delay: 3s
+}
+  

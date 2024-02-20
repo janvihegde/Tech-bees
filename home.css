@@ -1,0 +1,143 @@
+{
+    margin : 0
+    padding:0
+    font-family:sans-serif
+
+}
+
+
+#home{
+    background-image:url(img2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+
+    background-size: contain ;
+    background-position-x:center ;
+    position:fixed ;
+
+}
+
+
+.login-container{
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    background-color:#150603b7;
+    margin:auto;
+    margin-top: 115px;
+    border:20px  black;
+    border-radius: 15px;
+    position:relative;
+    top: 15px;
+    left:400px;
+   
+}
+.login-container h2{
+   text-align: center;
+   margin-bottom: 24px;
+   color:whitesmoke;
+   font-size:45px;
+
+}
+
+.login-container label{
+    display: block;
+    margin-bottom: 4px;
+    color:white;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"]{
+ width:95%;
+ padding: 8px;
+ padding-right: 1px;
+ margin-bottom: 24px;
+ border: 1px solid grey;
+ border-radius: 4px;
+ position: relative;
+ margin-left: 2%;
+ padding-left: 1px;
+}
+.login-container h5 {
+    color: antiquewhite;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    font-size:15px;
+    padding-bottom: 20px;
+}
+.login-container a {
+    color: rgb(9, 9, 233);
+    font-size: 20px;
+    align-items: left;
+}
+.login-container button[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 9px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width:95%;
+    border-radius:4px;
+    position: relative;
+    left:10px;
+    top: 25px;
+}
+.login-container button[type="submit"]:hover{
+  background-color: #45a049;
+}
+
+
+.navbar .logo{
+    width:40px;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.container{
+    width: 50%;
+    height:100vh;
+    background: rgba(86,86,86,0.3);
+    backdrop-filter: blur(10px);
+    position:fixed;
+    left:0;
+    top:0;
+}
+.info{
+    width:550px;
+    color: #fff;
+    position :absolute
+    right:0;
+    top : 50% ;
+    transform:translate y (-50);
+}
+.info h1{
+    font-size:60px;
+
+    position:relative;
+    top: 20px;
+    left: 100px;;
+
+
+}
+.info p{
+    color:#f0eef1;
+    font-size:20px;
+
+    line-height:30px;
+    position:relative;
+    top:25px;
+    left:100px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}

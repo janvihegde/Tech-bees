@@ -1,0 +1,95 @@
+{
+    margin : 0;
+    padding : 0;
+    font family:sans-serif;
+  
+  }
+    
+  
+  .signup-box{
+   
+    background-image:url("oldmoney.jpg");
+    width: 100;
+    height: 100vh;
+
+    
+    background-size: contain ;
+    background-position-x:center ;
+    padding-left:40% ;
+    padding-top: 10%;
+    align-items: center;
+  
+  }
+  .signup-box h1{
+    text-align: center;
+    padding-top: 15px;
+    color:aliceblue
+  }
+  .signup-box h2{
+    text-align: center;
+  }
+  form{
+    width: 300px;
+    margin-left: 20px;
+    border:solid rgba(0, 0, 0, 0.701);
+    background-color: rgba(10, 5, 2, 0.505);
+    align-content: center;
+    border-radius: 5%;
+    height: fit-content;
+    
+  }
+  form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 19px;
+    color:antiquewhite;
+    position:relative;
+  }
+  form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid white ;
+    border-radius: 6px;
+    outline: none;
+  }
+  .signup-box input[type="text"]
+  {
+    background-color: rgba(206, 190, 172, 0.603);
+    margin: 1px black;
+    color:aliceblue;
+    width: 285px;
+  }
+  
+  
+  .signup-box button[type="submit"]
+  {
+      background-color: #4CAF50;
+      color: whitesmoke;
+      padding: 9px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      border:none;
+      cursor: pointer;
+      width: 300px;
+      border-radius: 4px;
+      font-size: 18px;
+      
+  }
+  
+     
+  .signup-box[type="submit"]:hover
+  {
+      background-color: #45a049;
+  }
+   
+  p{
+    text-align:left;
+    padding-top: 20px;
+    font-size: 15px;
+    color: aliceblue;
+    padding-left: 7px;
+  }
+  a{
+    color:whitesmoke;
+  }
